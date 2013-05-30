@@ -289,31 +289,6 @@ int32_t AConfiguration_getScreenLong(AConfiguration* config);
 void AConfiguration_setScreenLong(AConfiguration* config, int32_t screenLong);
 
 /**
- * Return the current ACONFIGURATION_UI_INVERTED_MODE_* set in the configuration.
- */
-int32_t AConfiguration_getUiInvertedMode(AConfiguration* config);
-
-/**
- * Set the current inverted UI mode in the configuration.
-+ */
-void AConfiguration_setUiInvertedMode(AConfiguration* config, int32_t uiInvertedMode);
-
-/**
- * Return the current ACONFIGURATION_UI_INVERTED_MODE_* set in the configuration.
- */
-int32_t AConfiguration_getUiInvertedMode(AConfiguration* config);
-
-/**
- * Set the current inverted UI mode in the configuration.
- */
-void AConfiguration_setUiInvertedMode(AConfiguration* config, int32_t uiInvertedMode);
-
-/**
- * Return the current ACONFIGURATION_UI_MODE_TYPE_* set in the configuration.
- */
-int32_t AConfiguration_getUiModeType(AConfiguration* config);
-
-/**
  * Set the current UI mode type in the configuration.
  */
 void AConfiguration_setUiModeType(AConfiguration* config, int32_t uiModeType);
